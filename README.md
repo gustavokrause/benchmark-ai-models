@@ -10,6 +10,8 @@ Analyze migration of a Design System (React, Tailwind, Radix UI) to React Native
 1. Main evaluator: `claude-4-sonnet-1m-thinking Max`
 2. Secondary evaluator: `claude-4.1-opus-thinking Max`
 
+Note: Evaluators ran in `MAX` Mode for more thorough assessment; the models being tested were not executed in `MAX` Mode.
+
 | Model                       |                  Events | Errored | Total Events | Tokens | Errored | Total Tokens | Cost (USD) |
 | --------------------------- | ----------------------: | ------: | -----------: | -----: | ------: | -----------: | ---------: |
 | claude-4-sonnet-1m-thinking |                      17 |       2 |           19 | 226.1K |   17.7K |       243.8K |      $0.56 |
